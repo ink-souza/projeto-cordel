@@ -60,14 +60,23 @@ section.normal{
 }
 
 section.normal p{
-    margin-bottom: 30px;
+    padding-bottom: 2em;
 }
 
 section.imagem{
-    background:rgba(0, 0, 0, 0.562) url(../imagens/background001.jpg) center center no-repeat fixed;
-    background-size: cover;
     color:white;
 }
+
+section#img01{
+    background:rgba(0, 0, 0, 0.562) url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#img02{
+    background:rgba(0, 0, 0, 0.562) url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 
 section.imagem p{
     padding:5px;
