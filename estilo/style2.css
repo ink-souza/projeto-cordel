@@ -27,14 +27,14 @@ header{
 }
 header h1{
     font-family:var(--fonte-titulo);
-    padding-top: 40px;
+    padding-top: 50px;
     font-variant:small-caps;
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: normal;
 }
 header p{
    
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 header a , footer a{
@@ -65,23 +65,32 @@ section.normal p{
 
 section.imagem{
     color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+   
+    
+   
 }
 
 section#img01{
-    background:rgba(0, 0, 0, 0.562) url(../imagens/background001.jpg) center center no-repeat fixed;
+    background:rgba(0, 0, 0, 0.562) url(../imagens/background001.jpg);
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img02{
-    background:rgba(0, 0, 0, 0.562) url(../imagens/background002.jpg) center center no-repeat fixed;
+    background:rgba(0, 0, 0, 0.562) url(../imagens/background002.jpg);
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
 section.imagem p{
     padding:5px;
     display:inline-block;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 
 
